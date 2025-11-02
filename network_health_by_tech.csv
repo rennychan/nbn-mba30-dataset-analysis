@@ -1,0 +1,7 @@
+technology,underperf_pct,avg_latency,avg_outages,impaired_pct
+Fixed Wireless,17.88,45.26,0.163,0.0
+Fibre to the Node,11.36,15.47,0.238,16.85
+Fibre to the Premises,1.92,7.06,0.333,0.0
+Hybrid Fibre Coaxial,1.56,10.62,0.261,0.0
+Satellite,0.94,333.16,0.36,0.0
+Fibre to the Curb,0.0,7.18,0.378,0.0

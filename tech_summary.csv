@@ -1,0 +1,7 @@
+technology,Busy hour trimmed mean download speed,Busy hour trimmed mean upload speed,Busy hour trimmed mean latency,Average daily outages
+Fibre to the Premises,349.82,29.84,7.06,0.33
+Hybrid Fibre Coaxial,338.75,28.89,10.62,0.26
+Fixed Wireless,123.62,11.08,45.26,0.16
+Satellite,116.91,19.91,333.16,0.36
+Fibre to the Curb,72.93,19.2,7.18,0.38
+Fibre to the Node,55.71,15.7,15.47,0.24
