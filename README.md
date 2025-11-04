@@ -1,55 +1,73 @@
-# 📊 NBN MBA Dataset Analysis
+# 🛰️ NBN MBA Dataset Analysis
 
-👉 **[Download the interactive Power BI Dashboard
-(.pbix)](./nbn_mba30_powerbi_dashboard.pbix)**
+## 📘 Overview
+This project analyses the **NBN MBA 2025 broadband performance dataset**, focusing on RSP (Retail Service Provider) performance across different access technologies such as **Fibre to the Premises (FTTP), Hybrid Fibre Coaxial (HFC), Fibre to the Node (FTTN), Fibre to the Curb (FTTC), Fixed Wireless, and Satellite**.
 
-**Python + Power BI Analysis of ACCC NBN MBA Report 30 Dataset Broadband Performance Metrics**
+The objective is to uncover insights about:
+- Average download speeds during busy hours  
+- Latency distribution by technology  
+- Percentage of underperforming services  
+- Comparative trends among top RSPs and technologies  
 
----
-
-### 📘 Overview
-This project analyzes the *ACCC NBN MBA Report 30* dataset, which measures broadband performance (download, upload, latency) across different ISPs and access technologies (FTTP, HFC, FTTN, etc.).  
-The goal is to identify national broadband trends, underperforming access types, and provider-level performance.
-
----
-
-### 🧠 Key Insights
-- **FTTP & HFC** maintain near-advertised speeds (> 95 Mbps).  
-- **FTTN** underperforms most (~ 55–75 Mbps).  
-- Independent ISPs (**Aussie Broadband**, **Superloop**) outperform incumbents.  
-- National underperforming rate ≈ 4 – 5 %.
+Both **Python (Pandas, Matplotlib)** and **Power BI** were used to explore and visualize the dataset.
 
 ---
 
-### 🧰 Tech Stack
-- **Python** (`pandas`, `matplotlib`) for data processing & visualisation  
-- **Google Colab** for interactive notebook execution  
-- **Power BI** for dashboard creation and KPI reporting  
-- **GitHub** for version control and portfolio presentation  
+## 🧰 Tools and Technologies
+- **Python:** Data cleaning and visualization using Pandas and Matplotlib  
+- **Power BI:** Interactive dashboard creation  
+- **CSV Datasets:** Provided MBA30 broadband performance data  
+- **GitHub:** Version control and portfolio presentation  
 
 ---
 
-### 📊 Visual Outputs
-- **Top 10 RSPs – Busy-hour Download (Mbps)**  
-- **Download & Latency by Technology**  
-- **Underperforming Services (%) by Technology**
-
-*(See charts and CSVs in this repository.)*
-
+## 🧮 Datasets Used
+| File Name | Description |
+|------------|-------------|
+| `kpIs.csv` | Key performance indicators summary |
+| `rsp_summary.csv` | RSP-level broadband performance metrics |
+| `tech_summary.csv` | Technology-level performance summary |
+| `network_health_by_tech.csv` | Network health and quality by technology |
+| `summary_dashboard.png` | Python-generated static dashboard preview |
+| `nbn_mba30_powerbi_dashboard.pbix` | Power BI interactive dashboard |
+| `nbn_mba_analysis.ipynb` | Python notebook for analysis and chart generation |
 
 ---
 
-### 🧩 Repository Structure
+## 📊 Dashboard Preview
 
-  File                                 Description
-  ------------------------------------ -------------------------------------------------
-  `nbn_mba_analysis.ipynb`             Python notebook for data cleaning,
-                                       transformation, and exploratory analysis
+The following visualization provides a high-level summary of broadband performance in the NBN MBA 2025 dataset, highlighting the top service providers and technology types across key KPIs such as busy-hour download speed, latency, and underperforming service ratios.
 
-  `nbn_mba30_powerbi_dashboard.pbix`   Power BI dashboard file for visual exploration
+This dashboard was created using **Python (Pandas + Matplotlib)** for data processing and visualization.  
+It offers clear comparisons across technologies like FTTP, HFC, Fixed Wireless, and Satellite, giving insight into which access types deliver the highest performance under load.
 
-  `summary_dashboard.png`              Static preview image of the final dashboard
+![NBN MBA 2025 Dashboard](summary_dashboard.png)
 
-  `kpIs.csv`, `rsp_summary.csv`,       Dataset files used in analysis
-  `tech_summary.csv`,                  
-  `network_health_by_tech.csv`         
+To explore or reproduce this visualization:
+- View the interactive Power BI version: [`nbn_mba30_powerbi_dashboard.pbix`](nbn_mba30_powerbi_dashboard.pbix)
+- Or run the full Python analysis notebook: [`nbn_mba_analysis.ipynb`](nbn_mba_analysis.ipynb)
+
+Each file in this repository supports a different layer of the analysis pipeline:
+- `kpIs.csv`, `rsp_summary.csv`, `tech_summary.csv` – core performance data tables  
+- `network_health_by_tech.csv` – technology-specific KPI metrics  
+- `summary_dashboard.png` – static Python-generated dashboard preview  
+- `nbn_mba30_powerbi_dashboard.pbix` – dynamic Power BI visualization  
+
+---
+
+## 🔍 Key Insights
+- **Fibre to the Premises (FTTP)** and **HFC** show the **highest busy-hour download speeds**, exceeding 300 Mbps on average.  
+- **Satellite** exhibits the **highest latency (333 ms)**, while fixed-line services remain below 15 ms.  
+- **Fixed Wireless** displays a **higher underperformance ratio (17.9%)**, indicating potential congestion during busy hours.  
+- Overall, **fibre-based technologies consistently outperform wireless and satellite** in both speed and stability.  
+
+---
+
+## 📦 How to Use
+1. Clone the repository:  
+   git clone https://github.com/rennychan/nbn-mba30-dataset-analysis.git
+   cd nbn-mba30-dataset-analysis
+
+2. To view the Power BI dashboard, download and open: nbn_mba30_powerbi_dashboard.pbix
+
+3. To run the Python analysis: jupyter notebook nbn_mba_analysis.ipynb
