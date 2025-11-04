@@ -1,6 +1,11 @@
 # 📊 NBN MBA Dataset Analysis
 
-![Power BI Dashboard Preview](summary_dashboard.png)
+## 📊 Power BI Dashboard Preview
+
+![NBN MBA 2025 Dashboard](summary_dashboard.png)
+
+👉 **[Download the interactive Power BI Dashboard
+(.pbix)](./nbn_mba30_powerbi_dashboard.pbix)**
 
 **Python + Power BI Analysis of ACCC NBN MBA Report 30 Dataset Broadband Performance Metrics**
 
@@ -35,26 +40,25 @@ The goal is to identify national broadband trends, underperforming access types,
 
 *(See charts and CSVs in this repository.)*
 
----
-
-### 📄 Exported Data Tables
-Clean CSV outputs for Power BI / Tableau integration:
-- `kpis.csv` – Overall national KPIs  
-- `rsp_summary.csv` – Top RSP performance  
-- `tech_summary.csv` – Access-type comparison  
-- `network_health_by_tech.csv` – Technology underperformance summary  
 
 ---
 
-### 🚀 Next Steps
-- Build and publish an **interactive Power BI dashboard** for KPI visualisation.  
-- Add **trend comparison** across multiple MBA reports.  
-- Extend to **Tableau or Streamlit** for web-based analytics.  
-- Use this repository in your **portfolio / interviews** as a data-driven project example.
+### 🧩 Repository Structure
 
----
+  --------------------------------------------------------------------------------------
+  File                                 Description
+  ------------------------------------ -------------------------------------------------
+  `nbn_mba_analysis.ipynb`             Python notebook for data cleaning,
+                                       transformation, and exploratory analysis
 
-### 🧾 Author
-**Renny Chan**  
+  `nbn_mba30_powerbi_dashboard.pbix`   Power BI dashboard file for visual exploration
+
+  `summary_dashboard.png`              Static preview image of the final dashboard
+
+  `kpIs.csv`, `rsp_summary.csv`,       Dataset files used in analysis
+  `tech_summary.csv`,                  
+  `network_health_by_tech.csv`         
+  --------------------------------------------------------------------------------------
+
 📍 Sydney, Australia  
 🔗 [GitHub Profile](https://github.com/rennychan)
