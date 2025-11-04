@@ -1,9 +1,5 @@
 # 📊 NBN MBA Dataset Analysis
 
-## 📊 Power BI Dashboard Preview
-
-![NBN MBA 2025 Dashboard](summary_dashboard.png)
-
 👉 **[Download the interactive Power BI Dashboard
 (.pbix)](./nbn_mba30_powerbi_dashboard.pbix)**
 
@@ -45,7 +41,6 @@ The goal is to identify national broadband trends, underperforming access types,
 
 ### 🧩 Repository Structure
 
-  --------------------------------------------------------------------------------------
   File                                 Description
   ------------------------------------ -------------------------------------------------
   `nbn_mba_analysis.ipynb`             Python notebook for data cleaning,
@@ -58,7 +53,3 @@ The goal is to identify national broadband trends, underperforming access types,
   `kpIs.csv`, `rsp_summary.csv`,       Dataset files used in analysis
   `tech_summary.csv`,                  
   `network_health_by_tech.csv`         
-  --------------------------------------------------------------------------------------
-
-📍 Sydney, Australia  
-🔗 [GitHub Profile](https://github.com/rennychan)
