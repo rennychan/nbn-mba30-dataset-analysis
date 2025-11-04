@@ -1,7 +1,7 @@
 # 🛰️ NBN MBA Dataset Analysis
 
 ## 📘 Overview
-This project analyses the **NBN MBA 2025 broadband performance dataset**, focusing on RSP (Retail Service Provider) performance across different access technologies such as **Fibre to the Premises (FTTP), Hybrid Fibre Coaxial (HFC), Fibre to the Node (FTTN), Fibre to the Curb (FTTC), Fixed Wireless, and Satellite**.
+This project analyses the **NBN MBA 2025 broadband performance dataset 30**, focusing on RSP (Retail Service Provider) performance across different access technologies such as **Fibre to the Premises (FTTP), Hybrid Fibre Coaxial (HFC), Fibre to the Node (FTTN), Fibre to the Curb (FTTC), Fixed Wireless, and Satellite**.
 
 The objective is to uncover insights about:
 - Average download speeds during busy hours  
